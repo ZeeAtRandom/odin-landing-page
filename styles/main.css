@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+main > div {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.siteWidth {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+main {
+    flex: 1;
+    flex-direction: column;
+}
+
+header, footer, #hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+nav {
+    padding-top:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #navLogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+header a {
+    color: #E5E7EB;
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 40px;
+    display: inline-block;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#heroContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#heroText, #heroImg {
+    width: 500px;
+    flex: 0 0 auto;
+}
+
+#heroText {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#heroImg {
+    background-color: gray;
+}
+
+#hero h1, #hero p, #hero button {
+    margin: 5px 0;
+}
+
+#info {
+    text-align: center;
+    padding-top:50px;
+}
+
+#infoContainer h2 {
+    padding-bottom: 50px;
+}
+
+#infoContent {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.infoBox {
+    width: 165px;
+}
+
+.infoImg {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 10px;
+    border: solid blue;
+    box-sizing: border-box;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    font-size: 40px;
+}
+
+#quoteContent {
+    width: 900px;
+}
+
+#quote p {
+    font-style: italic;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#quote h3 {
+    margin: 0;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 50px;
+    font-size:24px
+}
+
+#ctaContent {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#ctaContent h3, #ctaContent p {
+    padding: 0;
+    margin: 0;
+}
+
+#ctaContent button {
+    border: solid white 1px;
+}
